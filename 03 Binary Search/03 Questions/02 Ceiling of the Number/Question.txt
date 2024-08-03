@@ -1,0 +1,19 @@
+You are given a sorted array arr of integers and a target integer target. Your task is to find the ceiling of the 
+target number in the given sorted array. The ceiling of the target is the smallest element in the array that is 
+greater than or equal to the target. If the target exists in the array, return the target itself. 
+If no such element exists, return -1.
+
+Input Test Case 1 ->
+arr = [1, 2, 8, 10, 10, 12, 19]
+target = 5
+Output: 8
+
+Input Test Case 2 ->
+arr = [1, 2, 8, 10, 10, 12, 19]
+target = 10
+Output: 10
+
+Input Test Case 3 ->
+arr = [1, 2, 8, 10, 10, 12, 19]
+target = 20
+Output: -1
